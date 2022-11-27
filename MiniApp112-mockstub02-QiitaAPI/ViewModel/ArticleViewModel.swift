@@ -16,11 +16,16 @@ final class ArticleViewModel: ObservableObject {
     }
 
     private func loadArticles() {
-        articleListAPIClient.fetch(completion: { articleList in
-            guard let articleList = articleList,
-                  0 < articleList.count else { return
+        articleListAPIClient.fetch(completion: { result in
+            switch result {
+            case .success(let articleList):
+                self.articles = articleList
+
+            case .failure(let error):
+                print(error.title)
             }
-            self.articles = articleList
+
+
         })
     }
 }

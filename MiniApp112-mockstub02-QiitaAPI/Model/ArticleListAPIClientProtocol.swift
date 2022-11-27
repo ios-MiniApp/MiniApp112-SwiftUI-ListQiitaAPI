@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
 
 protocol ArticleListAPIClientProtocol {
-    func fetch(completion: @escaping (([Article]?) -> Void))
+    func fetch(completion: @escaping ((Result<[Article], APIError>) -> Void))
 }

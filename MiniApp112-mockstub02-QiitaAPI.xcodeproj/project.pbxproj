@@ -22,6 +22,8 @@
 		87AF4EE32933273700EA77AA /* ArticleListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EDB2933206A00EA77AA /* ArticleListAPIClient.swift */; };
 		87AF4EE62933277300EA77AA /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EE52933277300EA77AA /* ArticleViewModel.swift */; };
 		87AF4EE72933277C00EA77AA /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EE52933277300EA77AA /* ArticleViewModel.swift */; };
+		87AF4EE92933406200EA77AA /* MockArticleFetchr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EE82933406200EA77AA /* MockArticleFetchr.swift */; };
+		87AF4EEB2933448C00EA77AA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EEA2933448C00EA77AA /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		87AF4ED92933205500EA77AA /* ArticleListAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClientProtocol.swift; sourceTree = "<group>"; };
 		87AF4EDB2933206A00EA77AA /* ArticleListAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClient.swift; sourceTree = "<group>"; };
 		87AF4EE52933277300EA77AA /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		87AF4EE82933406200EA77AA /* MockArticleFetchr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleFetchr.swift; sourceTree = "<group>"; };
+		87AF4EEA2933448C00EA77AA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				87AF4EBF29331F8000EA77AA /* MiniApp112_mockstub02_QiitaAPITests.swift */,
+				87AF4EE82933406200EA77AA /* MockArticleFetchr.swift */,
 			);
 			path = "MiniApp112-mockstub02-QiitaAPITests";
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		87AF4ED82933204600EA77AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				87AF4EEA2933448C00EA77AA /* APIError.swift */,
 				87AF4ED92933205500EA77AA /* ArticleListAPIClientProtocol.swift */,
 				87AF4EDB2933206A00EA77AA /* ArticleListAPIClient.swift */,
 			);
@@ -300,6 +306,7 @@
 				87AF4EDC2933206A00EA77AA /* ArticleListAPIClient.swift in Sources */,
 				87AF4EE62933277300EA77AA /* ArticleViewModel.swift in Sources */,
 				87AF4EAF29331F7E00EA77AA /* MiniApp112_mockstub02_QiitaAPIApp.swift in Sources */,
+				87AF4EEB2933448C00EA77AA /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87AF4EE0293326DA00EA77AA /* ArticleListAPIClientProtocol.swift in Sources */,
+				87AF4EE92933406200EA77AA /* MockArticleFetchr.swift in Sources */,
 				87AF4EE22933273600EA77AA /* ArticleListAPIClient.swift in Sources */,
 				87AF4EE72933277C00EA77AA /* ArticleViewModel.swift in Sources */,
 				87AF4EC029331F8000EA77AA /* MiniApp112_mockstub02_QiitaAPITests.swift in Sources */,
