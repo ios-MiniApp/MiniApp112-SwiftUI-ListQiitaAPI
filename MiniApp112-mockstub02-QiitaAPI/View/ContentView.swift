@@ -12,7 +12,7 @@ struct Article: Codable {
 }
 
 struct ContentView: View {
-    @ObservedObject var viewModel = ArticleViewModel()
+    @ObservedObject private var viewModel = ArticleViewModel()
 
     var body: some View {
         VStack {
@@ -21,8 +21,6 @@ struct ContentView: View {
                 ForEach(0..<viewModel.articles.count, id: \.self) { index in
                     Text(viewModel.articles[index].title)
                 }
-            }.onAppear{
-                print(viewModel.articles)
             }
         }
     }

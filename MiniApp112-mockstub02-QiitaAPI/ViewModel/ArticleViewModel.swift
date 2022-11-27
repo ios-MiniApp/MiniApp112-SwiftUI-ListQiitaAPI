@@ -8,22 +8,19 @@
 import SwiftUI
 
 final class ArticleViewModel: ObservableObject {
-    //@Published var articles: [Article] = [Article(title: "あああ"), Article(title: "あああ")]
     @Published var articles: [Article] = [Article]()
-    let articleListAPIClient = ArticleListAPIClient()
+    private let articleListAPIClient = ArticleListAPIClient()
 
     init() {
         loadArticles()
     }
 
-    func loadArticles() {
+    private func loadArticles() {
         articleListAPIClient.fetch(completion: { articleList in
             guard let articleList = articleList,
                   0 < articleList.count else { return
             }
             self.articles = articleList
-            print(articleList)
-            print(articleList.count)
         })
     }
 }
