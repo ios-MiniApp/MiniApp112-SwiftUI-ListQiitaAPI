@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87AF4EAF29331F7E00EA77AA /* MiniApp112_mockstub02_QiitaAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EAE29331F7E00EA77AA /* MiniApp112_mockstub02_QiitaAPIApp.swift */; };
-		87AF4EB129331F7E00EA77AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EB029331F7E00EA77AA /* ContentView.swift */; };
+		87AF4EB129331F7E00EA77AA /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EB029331F7E00EA77AA /* ArticleView.swift */; };
 		87AF4EB329331F7F00EA77AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AF4EB229331F7F00EA77AA /* Assets.xcassets */; };
 		87AF4EB629331F7F00EA77AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AF4EB529331F7F00EA77AA /* Preview Assets.xcassets */; };
 		87AF4EC029331F8000EA77AA /* MiniApp112_mockstub02_QiitaAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF4EBF29331F8000EA77AA /* MiniApp112_mockstub02_QiitaAPITests.swift */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		87AF4EAB29331F7E00EA77AA /* MiniApp112-mockstub02-QiitaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp112-mockstub02-QiitaAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AF4EAE29331F7E00EA77AA /* MiniApp112_mockstub02_QiitaAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniApp112_mockstub02_QiitaAPIApp.swift; sourceTree = "<group>"; };
-		87AF4EB029331F7E00EA77AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87AF4EB029331F7E00EA77AA /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		87AF4EB229331F7F00EA77AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87AF4EB529331F7F00EA77AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87AF4EBB29331F7F00EA77AA /* MiniApp112-mockstub02-QiitaAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiniApp112-mockstub02-QiitaAPITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,7 +152,7 @@
 		87AF4EDD2933209E00EA77AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				87AF4EB029331F7E00EA77AA /* ContentView.swift */,
+				87AF4EB029331F7E00EA77AA /* ArticleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87AF4EDA2933205500EA77AA /* ArticleListAPIClientProtocol.swift in Sources */,
-				87AF4EB129331F7E00EA77AA /* ContentView.swift in Sources */,
+				87AF4EB129331F7E00EA77AA /* ArticleView.swift in Sources */,
 				87AF4EDC2933206A00EA77AA /* ArticleListAPIClient.swift in Sources */,
 				87AF4EE62933277300EA77AA /* ArticleViewModel.swift in Sources */,
 				87AF4EAF29331F7E00EA77AA /* MiniApp112_mockstub02_QiitaAPIApp.swift in Sources */,

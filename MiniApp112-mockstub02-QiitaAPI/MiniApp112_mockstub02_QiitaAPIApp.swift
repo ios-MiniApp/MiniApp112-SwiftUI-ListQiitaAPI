@@ -11,7 +11,7 @@ import SwiftUI
 struct MiniApp112_mockstub02_QiitaAPIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArticleView()
         }
     }
 }

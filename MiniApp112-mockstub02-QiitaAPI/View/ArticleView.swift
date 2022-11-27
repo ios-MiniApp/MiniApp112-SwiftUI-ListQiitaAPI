@@ -11,7 +11,7 @@ struct Article: Codable {
     let title: String
 }
 
-struct ContentView: View {
+struct ArticleView: View {
     @ObservedObject private var viewModel = ArticleViewModel()
 
     var body: some View {
@@ -28,6 +28,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ArticleView()
     }
 }
